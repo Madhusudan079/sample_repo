@@ -10,6 +10,8 @@ function App() {
         <p>My first Vercel website.</p>
         <button>Click Me</button>
       </div>
+      
+          <Analytics />
     </>
   );
 }
