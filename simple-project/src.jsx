@@ -1,6 +1,5 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
-import { Analytics } from "@vercel/analytics/react";
 import "./style.css";
 function App() {
   return (
@@ -10,8 +9,6 @@ function App() {
         <p>My first Vercel website.</p>
         <button>Click Me</button>
       </div>
-
-      <Analytics />
     </>
   );
 }
